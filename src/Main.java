@@ -23,6 +23,11 @@ public class Main {
         // Even though e and e2 were created from the same class, they can have
         // different values for their variables.
 
+        // Creating a new instance of Employee with the overloaded constructor
+        Employee e3 = new Employee("Alan", "Sia", 1000);
+
+        // the next constructor
+        Employee e4 = new Employee("Haikal", "Chong");
     }
 
     public static void calculateBmi() {
