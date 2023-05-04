@@ -4,8 +4,24 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         // e is a variable that will store an object of the Employee class
+        // Think about classes as custom data types that we can define
         Employee e = new Employee();
 
+        // We can access the variables in the Employee class.
+        e.firstName = "Ah Kow";
+        e.lastName = "Tan";
+
+        e.printName();
+
+        // We can create another instance of Employee.
+        Employee e2 = new Employee();
+        e2.firstName = "Mary";
+        e2.lastName = "Sue";
+
+        e2.printName();
+
+        // Even though e and e2 were created from the same class, they can have
+        // different values for their variables.
 
     }
 
